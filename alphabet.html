@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0F172A">
+  <meta name="description" content="Интерактивные карточки первых восьми букв арабского алфавита и мини-тест на транскрипцию.">
+  <title>Арабский алфавит — ХАРФ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Арабский язык — главная">
+        <span class="brand-symbol" lang="ar" dir="rtl" aria-hidden="true">ا</span>
+        <span class="brand-copy"><strong>ХАРФ</strong><span>язык в деталях</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="alphabet.html" aria-current="page">Алфавит</a>
+        <a href="grammar.html">Грамматика</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="page-hero-pattern" aria-hidden="true"></div>
+      <div class="container page-hero-inner" data-reveal>
+        <p class="eyebrow eyebrow--light"><span class="eyebrow-mark" aria-hidden="true"></span> ШАГ 01 · ЗНАКОМСТВО</p>
+        <h1 id="page-title">Арабский <em>алфавит</em></h1>
+        <p class="page-lead">Нажмите на карточку, чтобы увидеть транскрипцию и первое слово с этой буквой.</p>
+        <div class="page-meta"><span>ПЕРВЫЕ 8 БУКВ</span><span class="meta-separator" aria-hidden="true"></span><span>КАРТОЧКИ С ПЕРЕВОРОТОМ</span></div>
+      </div>
+    </section>
+
+    <section class="alphabet-section section-space" aria-labelledby="letters-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> ПЕРВЫЙ РЯД</p>
+            <h2 id="letters-title">Буква за <em>буквой</em></h2>
+          </div>
+          <p class="section-intro">Коснитесь любой карточки — она перевернётся и покажет подсказку.</p>
+        </div>
+        <div class="letter-grid">
+          <button class="letter-card" type="button" data-letter-card data-letter="alif" data-letter-name="Алиф" aria-pressed="false" aria-label="Открыть карточку: Алиф">
+            <span class="letter-card-inner">
+              <span class="letter-face letter-face-front" data-face="front">
+                <span class="letter-index">01 / 08</span><span class="letter-glyph" lang="ar" dir="rtl">ا</span><span class="letter-title">Алиф</span><span class="letter-hint">Нажмите, чтобы узнать <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="letter-face letter-face-back" data-face="back" aria-hidden="true">
+                <span class="back-label">ЗВУК</span><span class="back-transcription">а · ā</span><span class="back-label">ПРИМЕР СЛОВА</span><span class="example-arabic" lang="ar" dir="rtl">أَسَدٌ</span><span class="example-transcription">ʾasad · лев</span>
+              </span>
+            </span>
+          </button>
+          <button class="letter-card" type="button" data-letter-card data-letter="ba" data-letter-name="Ба" aria-pressed="false" aria-label="Открыть карточку: Ба">
+            <span class="letter-card-inner">
+              <span class="letter-face letter-face-front" data-face="front">
+                <span class="letter-index">02 / 08</span><span class="letter-glyph" lang="ar" dir="rtl">ب</span><span class="letter-title">Ба</span><span class="letter-hint">Нажмите, чтобы узнать <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="letter-face letter-face-back" data-face="back" aria-hidden="true">
+                <span class="back-label">ЗВУК</span><span class="back-transcription">б</span><span class="back-label">ПРИМЕР СЛОВА</span><span class="example-arabic" lang="ar" dir="rtl">بَيْتٌ</span><span class="example-transcription">bayt · дом</span>
+              </span>
+            </span>
+          </button>
+          <button class="letter-card" type="button" data-letter-card data-letter="ta" data-letter-name="Та" aria-pressed="false" aria-label="Открыть карточку: Та">
+            <span class="letter-card-inner">
+              <span class="letter-face letter-face-front" data-face="front">
+                <span class="letter-index">03 / 08</span><span class="letter-glyph" lang="ar" dir="rtl">ت</span><span class="letter-title">Та</span><span class="letter-hint">Нажмите, чтобы узнать <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="letter-face letter-face-back" data-face="back" aria-hidden="true">
+                <span class="back-label">ЗВУК</span><span class="back-transcription">т</span><span class="back-label">ПРИМЕР СЛОВА</span><span class="example-arabic" lang="ar" dir="rtl">تَمْرٌ</span><span class="example-transcription">tamr · финики</span>
+              </span>
+            </span>
+          </button>
+          <button class="letter-card" type="button" data-letter-card data-letter="tha" data-letter-name="Са" aria-pressed="false" aria-label="Открыть карточку: Са">
+            <span class="letter-card-inner">
+              <span class="letter-face letter-face-front" data-face="front">
+                <span class="letter-index">04 / 08</span><span class="letter-glyph" lang="ar" dir="rtl">ث</span><span class="letter-title">Са</span><span class="letter-hint">Нажмите, чтобы узнать <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="letter-face letter-face-back" data-face="back" aria-hidden="true">
+                <span class="back-label">ЗВУК</span><span class="back-transcription">с · межзубный</span><span class="back-label">ПРИМЕР СЛОВА</span><span class="example-arabic" lang="ar" dir="rtl">ثَوْبٌ</span><span class="example-transcription">thawb · одежда</span>
+              </span>
+            </span>
+          </button>
+          <button class="letter-card" type="button" data-letter-card data-letter="jim" data-letter-name="Джим" aria-pressed="false" aria-label="Открыть карточку: Джим">
+            <span class="letter-card-inner">
+              <span class="letter-face letter-face-front" data-face="front">
+                <span class="letter-index">05 / 08</span><span class="letter-glyph" lang="ar" dir="rtl">ج</span><span class="letter-title">Джим</span><span class="letter-hint">Нажмите, чтобы узнать <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="letter-face letter-face-back" data-face="back" aria-hidden="true">
+                <span class="back-label">ЗВУК</span><span class="back-transcription">дж</span><span class="back-label">ПРИМЕР СЛОВА</span><span class="example-arabic" lang="ar" dir="rtl">جَمِيلٌ</span><span class="example-transcription">jamīl · красивый</span>
+              </span>
+            </span>
+          </button>
+          <button class="letter-card" type="button" data-letter-card data-letter="ha" data-letter-name="Ха" aria-pressed="false" aria-label="Открыть карточку: Ха">
+            <span class="letter-card-inner">
+              <span class="letter-face letter-face-front" data-face="front">
+                <span class="letter-index">06 / 08</span><span class="letter-glyph" lang="ar" dir="rtl">ح</span><span class="letter-title">Ха</span><span class="letter-hint">Нажмите, чтобы узнать <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="letter-face letter-face-back" data-face="back" aria-hidden="true">
+                <span class="back-label">ЗВУК</span><span class="back-transcription">ḥ · мягкий гортанный</span><span class="back-label">ПРИМЕР СЛОВА</span><span class="example-arabic" lang="ar" dir="rtl">حَلِيبٌ</span><span class="example-transcription">ḥalīb · молоко</span>
+              </span>
+            </span>
+          </button>
+          <button class="letter-card" type="button" data-letter-card data-letter="kha" data-letter-name="Хо" aria-pressed="false" aria-label="Открыть карточку: Хо">
+            <span class="letter-card-inner">
+              <span class="letter-face letter-face-front" data-face="front">
+                <span class="letter-index">07 / 08</span><span class="letter-glyph" lang="ar" dir="rtl">خ</span><span class="letter-title">Хо</span><span class="letter-hint">Нажмите, чтобы узнать <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="letter-face letter-face-back" data-face="back" aria-hidden="true">
+                <span class="back-label">ЗВУК</span><span class="back-transcription">х · kh</span><span class="back-label">ПРИМЕР СЛОВА</span><span class="example-arabic" lang="ar" dir="rtl">خُبْزٌ</span><span class="example-transcription">khubz · хлеб</span>
+              </span>
+            </span>
+          </button>
+          <button class="letter-card" type="button" data-letter-card data-letter="dal" data-letter-name="Даль" aria-pressed="false" aria-label="Открыть карточку: Даль">
+            <span class="letter-card-inner">
+              <span class="letter-face letter-face-front" data-face="front">
+                <span class="letter-index">08 / 08</span><span class="letter-glyph" lang="ar" dir="rtl">د</span><span class="letter-title">Даль</span><span class="letter-hint">Нажмите, чтобы узнать <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="letter-face letter-face-back" data-face="back" aria-hidden="true">
+                <span class="back-label">ЗВУК</span><span class="back-transcription">д</span><span class="back-label">ПРИМЕР СЛОВА</span><span class="example-arabic" lang="ar" dir="rtl">دَارٌ</span><span class="example-transcription">dār · дом</span>
+              </span>
+            </span>
+          </button>
+        </div>
+        <p class="alphabet-note"><span class="note-mark" aria-hidden="true">✳</span> Это первые восемь букв алфавита. Полная азбука состоит из 28 букв.</p>
+      </div>
+    </section>
+
+    <section class="quiz-section section-space" aria-labelledby="quiz-title">
+      <div class="container quiz-layout">
+        <div class="quiz-intro" data-reveal>
+          <p class="eyebrow eyebrow--light"><span class="eyebrow-mark" aria-hidden="true"></span> ЗАКРЕПИТЕ ЗНАНИЯ</p>
+          <h2 id="quiz-title">Проверить <em>себя</em></h2>
+          <p>Короткий тест поможет вспомнить названия букв. В каждом вопросе выберите один из трёх вариантов.</p>
+          <button class="button button--gold" type="button" data-quiz-start>Запустить мини-тест <span aria-hidden="true">→</span></button>
+        </div>
+        <div class="quiz-panel" data-quiz-panel hidden aria-live="polite">
+          <div class="quiz-panel-top"><span data-quiz-progress>ВОПРОС 1 / 5</span><span class="quiz-status-dot" aria-hidden="true"></span></div>
+          <div class="quiz-question" data-quiz-question hidden>
+            <p class="quiz-prompt">Как называется эта буква?</p>
+            <span class="quiz-glyph" data-quiz-glyph lang="ar" dir="rtl"></span>
+            <div class="quiz-options" data-quiz-options></div>
+            <p class="quiz-feedback" data-quiz-feedback></p>
+            <button class="button button--outline quiz-next" type="button" data-quiz-next hidden>Следующий вопрос <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="quiz-result" data-quiz-result hidden>
+            <span class="result-symbol" aria-hidden="true">✳</span>
+            <h3 data-quiz-score></h3>
+            <p>Продолжайте знакомство с буквами — повторение помогает запомнить форму и звучание.</p>
+            <button class="button button--gold" type="button" data-quiz-restart>Повторить тест <span aria-hidden="true">↻</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="index.html"><span class="footer-brand-mark" lang="ar" dir="rtl" aria-hidden="true">ا</span><span>ХАРФ <small>язык в деталях</small></span></a>
+      <p>© 2026 ХАРФ. Тренажёр арабского языка.</p>
+      <a class="footer-top" href="#main">Наверх <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
